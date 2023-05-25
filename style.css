@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-.verde-fuerte {
+.verde {
     height: 15vh;
     background-color: var(--primario);
     z-index: -1;
@@ -33,19 +33,19 @@ body {
     width: 100%;
 }
 
-.verde-flojo {
-    height: 85vh;
+.beige {
+    height: 80vh;
     background-color: var(--secundario);
     z-index: -1;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 1;
 }
 
 main {
     background-color: white;
     width: 80%;
-    height: 95vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 70px 1fr;
@@ -75,6 +75,7 @@ main {
     background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
     border-left: 1px solid var(--border);
     position: relative;
+    height: 680px;
 }
 
 .perfil {
@@ -82,6 +83,11 @@ main {
     height: 60px;
     border-radius: 100%;
     overflow: hidden;
+}
+
+.grupo_chats h3{
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .perfil img {
@@ -142,13 +148,16 @@ main {
     justify-content: flex-start;
     align-items: center;
     height: 50px;
-    gap: 50px;
+    gap: 30px;
     padding: 0px 20px;
+}
+
+.archivados h3{
+    font-size: 16px;
 }
 
 .grupo_chats {
     max-height: 76vh;
-    overflow-y: scroll;
 }
 
 .grupo_chats > div {
@@ -175,7 +184,7 @@ main {
     background-color: var(--terciario);
     height: 65px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -210,7 +219,7 @@ main {
     background-color: var(--mensaje1);
     top: 0;
     width: 20px;
-    height: 40px;
+    height: 30px;
     right: -10px;
     clip-path: polygon(0 0, 0 62%, 100% 0);
 }
