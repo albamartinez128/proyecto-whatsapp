@@ -9,12 +9,12 @@
 }
 
 :root {
-    --primary: #00a884;
-    --secondary: #e3e2de;
-    --terciary: #f1f2f6;
-    --cuaternary: #efebe29b;
+    --primario: #174a3f;
+    --secundario: #e3e2de;
+    --terciario: #f1f2f6;
+    --cuaternario: #efebe22c;
     --border: #d4d5d9;
-    --mensaje1: #d8fdd2;
+    --mensaje1: #216a1664;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 
 .verde-fuerte {
     height: 15vh;
-    background-color: var(--primary);
+    background-color: var(--primario);
     z-index: -1;
     position: absolute;
     top: 0;
@@ -35,7 +35,7 @@ body {
 
 .verde-flojo {
     height: 85vh;
-    background-color: var(--secondary);
+    background-color: var(--secundario);
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -52,7 +52,7 @@ main {
 }
 
 .gestion {
-    background-color: var(--terciary);
+    background-color: var(--terciario);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ main {
 }
 
 .contacto {
-    background-color: var(--terciary);   
+    background-color: var(--terciario);   
     border-left: 2px solid var(--border);
     display: flex;
     justify-content: space-between;
@@ -68,20 +68,18 @@ main {
     padding: 0px 20px;
 }
 
-/* .chats {
 
-} */
 
 .chat {
-    background-color: var(--quaternary);
-    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
-    border-left: 2px solid var(--border);
+    background-color: var(--cuaternario);
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+    border-left: 1px solid var(--border);
     position: relative;
 }
 
 .perfil {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     overflow: hidden;
 }
@@ -113,7 +111,7 @@ main {
 }
 
 .buscador {
-    border-bottom: 2px solid var(--border);
+    border-bottom: 3px solid var(--border);
 }
 
 .search {
@@ -125,7 +123,7 @@ main {
 }
 
 .search > div {
-    background-color: var(--secondary);
+    background-color: var(--secundario);
     border-radius: 10px;
     width: 80%;
     display: flex;
@@ -163,7 +161,7 @@ main {
 }
 
 .grupo_chats > div:hover {
-    background-color: var(--terciary);
+    background-color: var(--terciario);
 }
 
 .texto {
@@ -174,22 +172,22 @@ main {
 }
 
 .hablar {
-    background-color: var(--terciary);
-    height: 70px;
+    background-color: var(--terciario);
+    height: 65px;
     position: absolute;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .hablar input {
    width: 80%;
    padding: 10px;
    border: none;
-   border-radius: 10px;
+   border-radius: 7px;
 }
 
 .mensaje-1 {
@@ -200,11 +198,11 @@ main {
     justify-content: space-between;
     align-items: center;
     min-height: 40px;
-    gap: 10px;
+    gap: 9px;
     float: right;
     margin: 15px;
     position: relative;
-    border-radius: 10px 0px 10px 10px;
+    border-radius: 15px 0px 10px 10px;
 }
 
 .mensaje-1 .bocadillo {
